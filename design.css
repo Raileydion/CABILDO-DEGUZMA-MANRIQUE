@@ -3,8 +3,6 @@ a {
 }
 
 
-<!-- OWN THEME CSS-->
-
 .japan-body {
     background-image: url('IMAGES/japan.jpg');
     background-size: cover;
@@ -245,8 +243,6 @@ a {
 }
 
 
-<!-- OLD THEME CSS-->
-
 
 .old-body {
     font-family: 'Times New Roman';
@@ -345,8 +341,6 @@ a {
     border-color: #999; /* Optional: change border color on hover */
 }
 
-
-<!-- MODERN THEME CSS-->
 
 
 .modern-body {
