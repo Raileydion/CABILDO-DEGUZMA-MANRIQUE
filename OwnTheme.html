@@ -6,150 +6,30 @@
     <title>Japan Themed Home Page</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-image: url('IMAGES/japan.jpg');
-            background-size: cover;
-            color: #f4f4f4;
-            height: 100vh;
-            margin-top: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+    <link rel="stylesheet" href="design.css">
 
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent dark overlay */
-            z-index: 1;
-        }
-
-        .header {
-            background-color: #1c1c1c;
-            color: #f4f4f4;
-            padding: 20px 0;
-            text-align: center; /* Center the text */
-            border-bottom: 3px solid #2b455e;
-            position: relative;
-            z-index: 2;
-            margin-bottom: 100px;
-        }
-
-        .navbar {
-            display: inline-block; /* Make navbar behave like inline-block */
-        }
-
-        .navbar-nav {
-            display: flex;
-            justify-content: center; /* Center the nav links */
-            margin: 0;
-        }
-
-        .navbar-nav .nav-item {
-            margin: 0 10px; /* Add spacing between items */
-        }
-
-        .navbar .nav-link {
-            color: #f4f4f4 !important;
-            font-weight: 500;
-            font-size: 16px;
-            transition: color 0.3s;
-        }
-
-        .navbar .nav-link:hover {
-            color: #c59ea2 !important;
-        }
-
-        .cta-button {
-            background-color: #c59ea2;
-            color: #121212;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-weight: 500;
-            transition: background-color 0.3s;
-        }
-
-        .main-content {
-            padding: 60px 20px;
-            text-align: center;
-            position: relative;
-            z-index: 2;
-        }
-
-        .main-content h1 {
-            font-size: 56px;
-            margin-bottom: 20px;
-            font-family: 'Roboto', sans-serif;
-            color: #f4f4f4;
-            font-weight: 700;
-            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
-        }
-
-        .main-content p {
-            font-size: 22px;
-            margin-bottom: 40px;
-            color: #f4f4f4;
-            line-height: 1.8;
-            max-width: 700px;
-            margin: 0 auto;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Increased text shadow */
-        }
-
-        .main-content .btn {
-            background-color: #2b455e;
-            color: #f4f4f4;
-            border-radius: 5px;
-            font-size: 18px;
-            font-weight: 500;
-            padding: 12px 25px;
-            transition: background-color 0.3s;
-            color: white;
-        }
-
-        .main-content .btn:hover {
-            background-color: #808294;
-        }
-        
-        .header .btn-signup {
-            background-color: #c59ea2;
-            color: white;
-            border-radius: 5px;
-            padding: 8px 20px;
-            font-size: 16px;
-            font-weight: 500;
-            text-align: right;
-            margin-right: 10px;
-        }
-
-        .header .btn-signup:hover {
-            background-color: #f4f4f4;
-            color: #121212;
-        }
-    </style>
 </head>
-<body>
-<div class="overlay"></div> <!-- Adding the overlay -->
-<header class="header">
-    <nav class="navbar navbar-expand-lg navbar-light">
+<body class="japan-body">
+<div class="japan-overlay"></div> <!-- Adding the overlay -->
+<header class="japan-header">
+    <nav class="japan-navbar navbar-expand-lg navbar-light">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="HolloweenTheme.html">Holiday Theme</a>
+                <ul class="japan-navbar-nav mx-auto">
+                    <li class="japan-nav-item">
+                        <a class="japan-nav-link" href="HolloweenTheme.html">Holiday Theme</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ModernTheme.html">Modern Theme</a>
+                    <li class="japan-nav-item">
+                        <a class="japan-nav-link" href="ModernTheme.html">Modern Theme</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="OldTheme.html">Old Theme</a>
+                    <li class="japan-nav-item">
+                        <a class="japan-nav-link" href="OldTheme.html">Old Theme</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="OwnTheme.html" id="own">Own Theme</a>
+                    <li class="japan-nav-item">
+                        <a class="japan-nav-link" href="OwnTheme.html" id="own">Own Theme</a>
                     </li>
                 </ul>
             </div>
@@ -157,12 +37,12 @@
     </nav>
 </header>
 
-<main class="main-content">
+<main class="japan-main-content">
     <div class="container">
         <h1>Welcome to Japan!</h1>
         <p>Japan, the land of the rising sun, offers a unique blend of ancient traditions and modern innovation. Explore its serene temples, bustling cities, and breathtaking natural landscapes that stretch from the shores of Okinawa to the peaks of Hokkaido.</p>
         <br>
-        <a href="#" class="btn">Learn More</a>
+        <a href="#" class="japan-btn">Learn More</a>
     </div>
 </main>
 
